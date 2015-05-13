@@ -1,0 +1,12 @@
+
+public class TrippleDiceTest 
+{
+	
+	public static void main(String[] args) 
+	{
+		TrippleDice myDice = new TrippleDice();
+		
+		myDice.Throw();
+		
+	}
+}
