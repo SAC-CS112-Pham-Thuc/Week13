@@ -1,0 +1,13 @@
+
+public class Dice {
+	
+	private int randomDiceNum;
+	
+	public int Throw ()
+	{
+		 randomDiceNum = ((1 + (int)( Math.random()* 6)));
+		 return randomDiceNum;
+	}
+	
+
+}
